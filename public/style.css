@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Light gray background for better contrast */
+}
+
+.container {
+    text-align: center;
+}
+
+#pay-button {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background-color: #009ee3; /* Mercado Pago blue */
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+#pay-button:hover {
+    background-color: #007bb8; /* Darker blue for hover */
+}
